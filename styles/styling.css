@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+body {
+    background-image: url(/images/giphy.gif);
+    
+}
+
+.howdy-header {
+    color: rgb(41, 90, 196);
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    filter: invert(1)
+}
+
+.haeder-three {
+    color: rgb(103, 7, 103);
+    font-family: 'Pacifico', sans-serif;
+    font-size: 100px;
+    filter: invert(1);
+}
+
+.header-2 {
+    color: rgb(3, 34, 118);
+    font-size: 10px;
+    /* filter: invert(1); */
+    
+}
+
+
+
+.image-enimen {
+    /* filter: blur(100px); */
+    filter:invert(1) blur(7px) grayscale(1);
+    display: block;
+    animation: rotation 7s infinite linear;
+    aspect-ratio: 1/2;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.on-face {
+    color: rgb(123, 97, 255);
+    padding: 100px;
+    transform: scale(1,10);
+    /* filter:invert(1); */
+}
+
+.beginning {
+    color: blueviolet;
+}
