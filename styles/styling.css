@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
 body {
+    /* background: rgb(255,16,143);
+    background: radial-gradient(circle, rgba(255,16,143,1) 0%, rgba(1,105,23,1) 14%, rgba(1,77,115,1) 33%, rgba(1,137,6,1) 43%, rgba(143,52,1,1) 59%, rgba(51,1,155,1) 71%, rgba(207,25,192,1) 86%, rgba(0,212,255,1) 100%); */
     background-image: url(/images/giphy.gif);
-    
 }
 
 .howdy-header {
-    color: rgb(41, 90, 196);
+    color: rgb(75, 128, 242);
     font-family: 'Anton', sans-serif;
     font-size: 20px;
     text-align: center;
-    filter: invert(1)
+    /* filter: invert(1) */
 }
 
 .haeder-three {
     color: rgb(103, 7, 103);
     font-family: 'Pacifico', sans-serif;
     font-size: 100px;
-    filter: invert(1);
+    /* filter: invert(1); */
 }
 
 .header-2 {
